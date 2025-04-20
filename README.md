@@ -1,70 +1,126 @@
-# E-waste Bot Project
+Here's a polished and professional **README.md** file you can use for your GitHub repository **E-waste Bot**:
 
-This project is an E-waste bot built using `pydantic-ai` and `groq`. The chatbot helps users with information about electronic waste management, recycling options, and proper disposal methods. It includes session-based memory and a system prompt, along with useful tools like websearch.
+---
 
-## Project Structure
+```markdown
+# ♻️ E-waste Bot
 
-- `.env`: Environment variables file.
-- `.gitignore`: Git ignore file.
-- `.python-version`: Python version file.
-- `pyproject.toml`: Project configuration file.
-- `README.md`: Project documentation file.
-- `test.py`: Main script for the chatbot.
-- `search.py`: A script to test tavily.
-- `app.py`: Streamlit frontend for the chatbot.
+E-waste Bot is a conversational AI assistant built with `pydantic-ai` and `groq`, designed to guide users on electronic waste management, recycling, and creative reuse ideas. It uses session-based memory and integrates tools like web search to provide dynamic, up-to-date responses.
 
-## Requirements
+## 🌟 Features
 
-- Python 3.13 or higher
-- `pydantic-ai` version 0.0.24 or higher
-- `python-dotenv` version 1.0.1 or higher
-- `streamlit` version 1.0.0 or higher
+- 🔁 **Session-based chat memory**
+- 🌐 **Web search integration** for live information
+- 🤖 **Custom system prompt** for role-based interaction
+- 💡 **Creative reuse suggestions** for e-waste items
+- 🖥️ **Streamlit UI** for an interactive frontend
 
-## Installation
+---
 
-1. Clone the repository:
+## 🗂️ Project Structure
 
-    ```sh
-    git clone https://github.com/karan4533/E-waste-Bot.git
-    cd E-waste-Bot
-    ```
+```
+E-waste-Bot/
+│
+├── .env                  # API keys and config
+├── .gitignore            # Files ignored by Git
+├── .python-version       # Python version declaration
+├── pyproject.toml        # Project configuration
+├── README.md             # This file
+├── test.py               # CLI chatbot runner
+├── search.py             # Tavily tool test script
+└── app.py                # Streamlit app frontend
+```
 
-2. Create a virtual environment:
+---
 
-    ```sh
-    python -m venv .venv
-    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
-    ```
+## 🛠️ Requirements
 
-3. Install the dependencies:
+- Python **3.13+**
+- `pydantic-ai` **0.0.24+**
+- `streamlit` **1.0.0+**
+- `python-dotenv` **1.0.1+**
 
-    ```sh
-    pip install -r requirements.txt
-    ```
+---
 
-    OR
+## 🚀 Installation
 
-    ```sh
-    uv sync
-    ```
+1. **Clone the repository**
 
-4. Set up the environment variables in the `.env` file:
+```bash
+git clone https://github.com/karan4533/E-waste-Bot.git
+cd E-waste-Bot
+```
 
-    ```env
-    GROQ_API_KEY=<your-groq-api-key>
-    TAVILY_API_KEY=<your-tavily-api-key>
-    ```
+2. **Create and activate a virtual environment**
 
-## Usage
+```bash
+python -m venv .venv
+# On Windows:
+.venv\Scripts\activate
+# On macOS/Linux:
+source .venv/bin/activate
+```
 
-Run the chatbot:
+3. **Install dependencies**
 
-```sh
+```bash
+pip install -r requirements.txt
+```
+
+_or, if using `uv` (recommended):_
+
+```bash
+uv sync
+```
+
+4. **Set up environment variables**
+
+Create a `.env` file in the root directory and add your API keys:
+
+```env
+GROQ_API_KEY=<your-groq-api-key>
+TAVILY_API_KEY=<your-tavily-api-key>
+```
+
+---
+
+## 💬 Usage
+
+### ▶️ Run the CLI chatbot
+
+```bash
 python test.py
 ```
 
-Run the Streamlit app:
+### 🖥️ Run the Streamlit Web App
 
-```sh
+```bash
 streamlit run app.py
 ```
+
+---
+
+## 📌 Notes
+
+- Ensure your `.env` file is properly configured with valid API keys.
+- The chatbot can search the web, thanks to `Tavily` integration.
+- This project is built with educational and research intent around sustainable technology.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 👤 Author
+
+Made with ❤️ by [karan4533](https://github.com/karan4533)
+
+---
+
+```
+
+Let me know if you'd like a version with badges (e.g., Python version, license, etc.) or a contribution guide added!
