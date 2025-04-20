@@ -1,7 +1,3 @@
-Here's a perfectly structured and polished `README.md` for your **E-waste Bot** GitHub repository, with professional formatting, clean visuals, and consistent sections. I’ve also added minor enhancements for readability and structure:
-
----
-
 ```markdown
 # ♻️ E-waste Bot
 
@@ -22,16 +18,16 @@ Here's a perfectly structured and polished `README.md` for your **E-waste Bot** 
 ## 🗂️ Project Structure
 
 ```
-E-waste-Bot/
-│
-├── .env                  # Environment variables (API keys)
-├── .gitignore            # Git ignore rules
-├── .python-version       # Python version spec
-├── pyproject.toml        # Project metadata and dependencies
-├── README.md             # Project documentation
-├── test.py               # CLI chatbot script
-├── search.py             # Tavily tool testing
-└── app.py                # Streamlit web app
+-E-waste-Bot/
+-│
+-├── .env                  # Environment variables (API keys)
+-├── .gitignore            # Git ignore rules
+-├── .python-version       # Python version spec
+-├── pyproject.toml        # Project metadata and dependencies
+-├── README.md             # Project documentation
+-├── test.py               # CLI chatbot script
+-├── search.py             # Tavily tool testing
+-└── app.py                # Streamlit web app
 ```
 
 ---
