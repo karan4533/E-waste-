@@ -17,18 +17,16 @@
 
 ## 🗂️ Project Structure
 
-```
--E-waste-Bot/
--│
--├── .env                  # Environment variables (API keys)
--├── .gitignore            # Git ignore rules
--├── .python-version       # Python version spec
--├── pyproject.toml        # Project metadata and dependencies
--├── README.md             # Project documentation
--├── test.py               # CLI chatbot script
--├── search.py             # Tavily tool testing
--└── app.py                # Streamlit web app
-```
+E-waste-Bot/
+│
+├── .env                  # Environment variables (API keys)
+├── .gitignore            # Git ignore rules
+├── .python-version       # Python version spec
+├── pyproject.toml        # Project metadata and dependencies
+├── README.md             # Project documentation
+├── test.py               # CLI chatbot script
+├── search.py             # Tavily tool testing
+└── app.py                # Streamlit web app
 
 ---
 
